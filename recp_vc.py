@@ -1,16 +1,15 @@
 import discord
+
 from discord.ext import commands
 from datetime import datetime, timezone
+from config import target_channel_id, message_channel_id, token
+intents = discord.Intents.all()
 
-intents = discord.Intents.default()
-intents.voice_states = True
 
 bot = commands.Bot(command_prefix='!', intents=intents)
 # configuration ici (de linge 12 et 13)
 voice_times = {}
 participants = {}  # Dictionnaire pour stocker les temps de participation de chaque membre
-target_channel_id = ID  # ID du salon vocal spécifique
-message_channel_id = ID # ID du salon où envoyer le message
 
 @bot.event
 async def on_voice_state_update(member, before, after):
@@ -55,4 +54,4 @@ async def on_voice_state_update(member, before, after):
                 # Réinitialiser les participants après l'envoi du message
                 participants.clear()
 # Ajouter le token de votre bot
-bot.run('BOT_TOKEN') 
+bot.run(token) 
