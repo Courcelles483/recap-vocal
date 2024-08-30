@@ -9,8 +9,8 @@ bot = commands.Bot(command_prefix='!', intents=intents)
 # configuration ici (de linge 12 et 13)
 voice_times = {}
 participants = {}  # Dictionnaire pour stocker les temps de participation de chaque membre
-target_channel_id = 1211012867944620084  # ID du salon vocal spécifique
-message_channel_id = 1210079199126102036  # ID du salon où envoyer le message
+target_channel_id = ID  # ID du salon vocal spécifique
+message_channel_id = ID # ID du salon où envoyer le message
 
 @bot.event
 async def on_voice_state_update(member, before, after):
@@ -39,7 +39,7 @@ async def on_voice_state_update(member, before, after):
                 # Créer l'embed
                 embed = discord.Embed(
                     title="**Fin de l'appel vocal**",
-                    color=discord.Color.from_str("#00FFFF")  # Utilisation du code hexadécimal pour cyan
+                    color=discord.Color.from_str("#00FFFF")  # metre la couleur avce le code couleur hexadécimal de votre choix
                 )
                 
                 # Ajouter la liste des participants et la durée totale de l'appel à la description
@@ -54,5 +54,5 @@ async def on_voice_state_update(member, before, after):
                 
                 # Réinitialiser les participants après l'envoi du message
                 participants.clear()
-
-bot.run('YOUR_BOT_TOKEN')
+# Ajouter le token de votre bot
+bot.run('BOT_TOKEN') 
