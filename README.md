@@ -14,10 +14,21 @@ Le script **envoie un embed à la fin de chaque session vocale** sur Discord, **
 Le **projet** vocal **provient de mon serveur** Discord entre amis, où je **trouvais qu'il manquait quelque** chose aux salons vocaux. C'était **difficile de retrouver un ancien message** envoyé, donc cette fonctionnalité aide à **éviter de touts lire  messages** pour rien. En plus, ça **ajoute une fonctionnalité stylée**, comme dans les groupes privés en message direct.
 
 ## Configuration 
-A METRE A JOURS AVEC LA NOUVELL VERSION V0.2
+### 1. Dans un même répértoir aux nom de votre choix ajouter les fichier [recp_vc.py](https://github.com/Courcelles483/recap-vocal/blob/c6f1d49484d0c0a2c36954cb3ce0e0c1a82e80c5/recp_vc.py) et [config.py](https://github.com/Courcelles483/recap-vocal/blob/c6f1d49484d0c0a2c36954cb3ce0e0c1a82e80c5/config.py)  (*IL NE FAUT PAS CHANGER DE [CONFIG.PY](https://github.com/Courcelles483/recap-vocal/blob/c6f1d49484d0c0a2c36954cb3ce0e0c1a82e80c5/config.py) )
+
+### 2.Ouvre le fichier config.py et modifer les élémnet à la linge de code doner
+
+a. Le salon vocal à surveiller = [LINGE 1](https://github.com/Courcelles483/recap-vocal/blob/c6f1d49484d0c0a2c36954cb3ce0e0c1a82e80c5/config.py#L1)
+
+b. Le salon où envoyer l'embed = [LINGE 2](https://github.com/Courcelles483/recap-vocal/blob/c6f1d49484d0c0a2c36954cb3ce0e0c1a82e80c5/config.py#L2)
+
+c. Token du bot = [LINGE 3](https://github.com/Courcelles483/recap-vocal/blob/c6f1d49484d0c0a2c36954cb3ce0e0c1a82e80c5/config.py#L3)
+
+### 3. Excuter le fichier [recp_vc.py](https://github.com/Courcelles483/recap-vocal/blob/c6f1d49484d0c0a2c36954cb3ce0e0c1a82e80c5/recp_vc.py) 
 
 ## Patch Notes 
-Ajout d'un fichier de configuration
+
+
 
 ## IDÉER FUTURE 
 -Ajouter des stastqiue  
