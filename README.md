@@ -16,18 +16,6 @@ Le **projet** vocal **provient de mon serveur** Discord entre amis, où je **tro
 ## Configuration 
 A METRE A JOURS AVEC LA NOUVELL VERSION V0.2
 
-**Le salon vocal à surveiller:**
-[Linge 12 ](https://github.com/Courcelles483/recap-vocal/blob/ec905cdf92e915b1f2316e2a7125f679ab09ce3a/recp_vc.py#L12C1-L12C19). (Si vous avez plusieurs salons vocaux à surveiller, vous devrez modifier le code car moi, j'ai juste 1 salon vocal dans mon serveur, donc j'ai fait simple.)
- 
-**Le salon où envoyer l'embed :**
-[Linge 13 ](https://github.com/Courcelles483/recap-vocal/blob/ec905cdf92e915b1f2316e2a7125f679ab09ce3a/recp_vc.py#L13)
-
-**La couleur de l'embed:**
-[Linge 42 ](https://github.com/Courcelles483/recap-vocal/blob/ec905cdf92e915b1f2316e2a7125f679ab09ce3a/recp_vc.py#L42)
-
-**le token du bot:**
-[Linge 58 ](https://github.com/Courcelles483/recap-vocal/blob/ec905cdf92e915b1f2316e2a7125f679ab09ce3a/recp_vc.py#L58)
-
 ## Patch Notes 
 Ajout d'un fichier de configuration
 
