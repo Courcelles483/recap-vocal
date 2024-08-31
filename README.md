@@ -14,7 +14,7 @@ Le script **envoie un embed à la fin de chaque session vocale** sur Discord, **
 Le **projet** vocal **provient de mon serveur** Discord entre amis, où je **trouvais qu'il manquait quelque** chose aux salons vocaux. C'était **difficile de retrouver un ancien message** envoyé, donc cette fonctionnalité aide à **éviter de touts lire  messages** pour rien. En plus, ça **ajoute une fonctionnalité stylée**, comme dans les groupes privés en message direct.
 
 ## Configuration 
-**La ligne des éléments de base à configurer** pour faire fonctionner le bot. (Et après, vous pourrez modifier le script pour l'adapter à vos besoins si vous le souhaitez.)
+A METRE A JOURS AVEC LA NOUVELL VERSION V0.2
 
 **Le salon vocal à surveiller:**
 [Linge 12 ](https://github.com/Courcelles483/recap-vocal/blob/ec905cdf92e915b1f2316e2a7125f679ab09ce3a/recp_vc.py#L12C1-L12C19). (Si vous avez plusieurs salons vocaux à surveiller, vous devrez modifier le code car moi, j'ai juste 1 salon vocal dans mon serveur, donc j'ai fait simple.)
@@ -29,7 +29,7 @@ Le **projet** vocal **provient de mon serveur** Discord entre amis, où je **tro
 [Linge 58 ](https://github.com/Courcelles483/recap-vocal/blob/ec905cdf92e915b1f2316e2a7125f679ab09ce3a/recp_vc.py#L58)
 
 ## Patch Notes 
-VERSION ORGINAL DU SCRIPT
+Ajout d'un fichier de configuration
 
 ## IDÉER FUTURE 
 -Ajouter des stastqiue  
